@@ -4,7 +4,7 @@
     "slug": "PicDrive",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,11 +16,17 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "facebookScheme": "fb291539028737922",
+    "facebookAppId": "291539028737922",
+    "facebookDisplayName": "Pic Drive",
+    "android": {
+        "package": "com.img.picdrive"
+    },
     "ios": {
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/splash.png"
     }
   }
 }
